@@ -6,10 +6,9 @@ os.system('sudo mkdir ./post')
 # Permisos a la carpeta
 os.system('sudo chmod -R 777 post')
 
-# Aproxima
+# Comprime hasta llegar a los 8 mm de altura respecto la base de la matriz
 os.system('mpirun -np 4 liggghts < in.plantilla1')
-# Comprime
-os.system('mpirun -np 4 liggghts < in.plantilla2')
+
 # Relaja
 os.system('mpirun -np 4 liggghts < in.plantilla3')
 
