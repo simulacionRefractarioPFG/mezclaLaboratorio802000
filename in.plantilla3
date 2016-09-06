@@ -29,9 +29,9 @@ variable 			zhi equal 0.015e6
 
 # Young Modulus, [kg*m-1*s-1]*10^-3 => [picogram*micron-1*microsecond-1]
 # 250 GPa
-variable 			E_MgO equal 2.5e5
-variable 			E_Al2O3 equal 2.5e5
-variable 			E_stainlessSteel equal 2e5 
+variable 			E_MgO equal 2.5e8
+variable 			E_Al2O3 equal 2.5e8
+variable 			E_stainlessSteel equal 2e8 
 
 # Cohesion Energy Density, [J*m-3]*10^-3 == [kg*m-1*s-2]*10^-3 => [picogram*micron-1*microsecond-2]
 # 3e6 J*m-3
