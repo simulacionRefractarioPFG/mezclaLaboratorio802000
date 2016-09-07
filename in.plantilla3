@@ -78,7 +78,7 @@ variable 			timestep equal 0.1*${rayleigh_time}
 # Press velocity
 variable 			pressUpVel equal 0.1
 # Press displacement [mm]
-variable 			press_displace equal 5
+variable 			press_displace equal 6
 # Time spent in displacement [s]
 variable 			t_displace equal ${press_displace}*10^-3/abs(${pressUpVel})
 
